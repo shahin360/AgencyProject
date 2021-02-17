@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/** home style **/
+#home-section{
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#home-section .fa{
+    background-color: rgb(34, 24, 24);
+    color: skyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+}
+.home-overlay{
+    background-color: rgba(12, 11, 11, 0.548);
+    min-height: 700px;
+}
+
+.home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+/** nav style **/
+#Mynav ul li a{
+    color: white;
+    font-size: 18px;
+    
+}
+.navbar{
+    background-color: rgb(35, 41, 41)!important;
+    color: white;
+    font-family: 'Reggae One', cursive;
+}
+/** gallary style **/
+.gallary-section img{
+    margin-top: 10px;
+}
+
+
+#ready-bg-img{
+    background-image: url("../img/slider1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/** carousel style **/
+.carousel-item{
+    height: 450px;
+}
+.course-video-section{
+    background-image: url("../img/slider1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+

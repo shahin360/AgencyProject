@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Mynav ul li a{
+    color: white;
+    font-size: 18px;
+    
+    
+}
+.navbar{
+    background-color: rgb(35, 41, 41)!important;
+    color: white;
+    font-family: 'Reggae One', cursive;
+}
+.Blog-banner-section{
+    background-image: url("../img/slider1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
